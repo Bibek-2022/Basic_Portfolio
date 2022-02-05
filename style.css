@@ -1,0 +1,35 @@
+.top-nave {
+  min-height: 80vh;
+  background: linear-gradient(
+    110.39deg,
+    #b4b9ec 29.47%,
+    rgba(235, 135, 171, 0) 105.11%
+  );
+  background: url(./assets/i.jfif) no-repeat center center;
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+a.nav-link {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+a.nav-link:hover {
+  transform: scale(1.25);
+}
+
+.sec-title {
+  border-bottom: rgb(157, 157, 253) solid 10px;
+  width: 150px;
+}
+/* 
+.sec-content {
+  display: flex;
+  justify-content: space-between;
+  word-spacing: 5px;
+} */
+
+.sec-content i {
+  font-size: 4rem;
+}
