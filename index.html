@@ -21,7 +21,7 @@
   <body>
     <div class="wrapper">
       <!-- ========= navbar=========== -->
-      <div class="top-nave">
+      <div class="top-nave" id="top-nav">
         <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
     <a class="navbar-brand" href="#"><img src="./assets/Bibek Shrestha.png" alt="" width="100px"></a>
@@ -31,16 +31,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Skills</a>
+          <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Project</a>
+          <a class="nav-link" href="#projects">Project</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
+          <a class="nav-link" href="#about">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" >Contact</a>
+          <a class="nav-link" href="#contact" tabindex="-1" >Contact</a>
         </li>
       </ul>
     </div>
@@ -63,19 +63,125 @@
     </div>
 </div>
       </div>
-      <section class="skills container mt-5 yp-5 text-center">
+      <!-- ============skill section======== -->
+
+      <section class="skills container mt-5 yp-5 text-center" id="skills">
           <div class="sec-title fs-1 fw-bolder text-center m-auto">Skills</div>
-            <div class="sec-content fs-1 mt-5 d-flex justify-content-between">
+            <div class="sec-content fs-1 mt-5 d-flex justify-content-between flex-wrap mb-5">
                 <span class="d-flex flex-column text-danger"><i class="fab fa-html5"></i>Html</span>
                 <span class="d-flex flex-column text-primary"><i class="fab fa-css3-alt"></i>CSS</span>
                 <span class="d-flex flex-column text-warning"><i class="fab fa-js"></i>JS</span>
             </div>
         </section>
-      <!-- ============hero-bg======== -->
-      <!-- ============skill section======== -->
+      <!-- ============Projects======== -->
+      <section class="project py-5" id="projects">
+          <div class="sec-title fs-1 fw-bolder text-center m-auto mt-5">Project</div>
+          <div class="proj-content">
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./assets/coffee5.jpg" alt="" width="80%" class="img-fluid rounded-2">
+                </div>
+                <div class="col-md-6  mt-5 mt-md-0">
+                  <h2>My Portfolio</h2>
+                  <div class="links fs-3">
+                    <a href="github"><i class="fab fa-github"></i></a>
+                    <a href="linked"><i class="fab fa-linkedin"></i></a>
+                    <a href="linked"><i class="fab fa-chrome"></i></a>
+                  </div>
+                  <div class="mt-3">
+                    <h6>Tech: HTML CSS JS</h6>
+                  </div>
+                  <p class="mt-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae libero soluta fugit, ut culpa.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae libero soluta fugit, ut culpa.
+                  </p>
+                </div>
+              </div>
+              <div class="row mt-5 py-5">
+                <div class="col-md-6 order-md-2">
+                  <img src="./assets/coffee5.jpg" alt="" width="80%" class="img-fluid rounded-2">
+                </div>
+                <div class="col-md-6  mt-5 mt-md-0">
+                  <h2>My Portfolio</h2>
+                  <div class="links fs-3">
+                    <a href="github"><i class="fab fa-github"></i></a>
+                    <a href="linked"><i class="fab fa-linkedin"></i></a>
+                    <a href="linked"><i class="fab fa-chrome"></i></a>
+                  </div>
+                  <div class="mt-3">
+                    <h6>Tech: HTML CSS JS</h6>
+                  </div>
+                  <p class="mt-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae libero soluta fugit, ut culpa.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae libero soluta fugit, ut culpa.
+                  </p>
+                </div>
+              </div>
+              <div class="row mt-5 py-5">
+                <div class="col-md-6">
+                  <img src="./assets/coffee5.jpg" alt="" width="80%" class="img-fluid rounded-2">
+                </div>
+                <div class="col-md-6  mt-5 mt-md-0">
+                  <h2>My Portfolio</h2>
+                  <div class="links fs-3">
+                    <a href="github"><i class="fab fa-github"></i></a>
+                    <a href="linked"><i class="fab fa-linkedin"></i></a>
+                    <a href="linked"><i class="fab fa-chrome"></i></a>
+                  </div>
+                  <div class="mt-3">
+                    <h6>Tech: HTML CSS JS</h6>
+                  </div>
+                  <p class="mt-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae libero soluta fugit, ut culpa.
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repudiandae libero soluta fugit, ut culpa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </section>
       <!-- ============about me======== -->
+      <section class="container" id="about">
+        <div class="sec-title fs-1 fw-bolder text-center m-auto mt-5">About&nbsp;Me</div>
+        <div class="about-content">
+          <div class="row mt-5">
+          <div class="col-md-4 text-center mb-3">
+            <img src="./assets/coffee5.jpg" alt=""  class="img-fluid" width="100%"></div>
+          <div class="col-md-7">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur, placeat magni enim, debitis voluptate et velit, vitae accusantium quo error deserunt molestiae inventore eveniet?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum veniam dolore voluptatem modi expedita vitae dolores sapiente! Adipisci rem facilis quidem incidunt ipsa commodi.</p>
+          </div>
+          </div>
+        </div>
+      </section>
       <!-- ============contact======== -->
+
+      <section class="cc  mt-4" id="contact">
+        <div class="contact-icon rounded py-5 container">
+            <div class="sec-title fs-1 fw-bolder text-center m-auto mt-5">Contact&nbsp;Me</div>
+
+          <div class="icons mt-4">
+          <a href="" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        </div>
+      </section>
       <!-- ============Footer======== -->
+      <footer class=" text-center py-5 mt-5 bg-dark text-light">
+       Made by Bibek Shrestha 😎
+       and ofCourse it &copy; copyright protected
+       <div class="up"><a href="#top-nav"><i class="fas fa-arrow-up"></i></a></div>
+      </footer>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
